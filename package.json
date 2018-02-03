@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clone": "cd ../ && cloneorg -u guest-account -e infra PWA-TW",
-    "fetch": "cd ../ && git-all fetch",
+    "pull": "cd ../ && git-all pull",
     "status": "cd ../ && git-all status"
   },
   "keywords": [],

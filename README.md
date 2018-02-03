@@ -26,10 +26,10 @@ npm run clone
 ```
 
 
-### To fetch all the projects
+### To pull all the projects
 
 ```
-npm run fetch
+npm run pull
 ```
 
 ### To get status of all the projects
