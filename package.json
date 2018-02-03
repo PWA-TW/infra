@@ -4,7 +4,7 @@
   "description": "Project setup script",
   "main": "index.js",
   "scripts": {
-    "clone": "cd ../ && cloneorg -u guest-aacount --token 9508bf365997d3a467346387967ce6144e0f22b9 -e infra PWA-TW",
+    "clone": "cd ../ && cloneorg -u guest-aacount --token ebfbc99c1df494da2972ac5bf93322a36d0a48fb -e infra PWA-TW",
     "fetch": "cd ../ && git-all fetch",
     "status": "cd ../ && git-all status"
   },
