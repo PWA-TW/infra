@@ -1,0 +1,18 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "description": "Project setup script",
+  "main": "index.js",
+  "scripts": {
+    "clone": "cd ../ && cloneorg -u guest-aacount --token 9508bf365997d3a467346387967ce6144e0f22b9 -e infra PWA-TW",
+    "fetch": "cd ../ && git-all fetch",
+    "status": "cd ../ && git-all status"
+  },
+  "keywords": [],
+  "author": "TW",
+  "license": "MIT",
+  "dependencies": {
+    "clone-org-repos": "^0.2.6",
+    "git-all": "0.0.3"
+  }
+}
