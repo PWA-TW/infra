@@ -6,7 +6,8 @@
   "scripts": {
     "clone": "cd ../ && cloneorg -u guest-account -e infra PWA-TW",
     "pull": "cd ../ && git-all pull",
-    "status": "cd ../ && git-all status"
+    "status": "cd ../ && git-all status",
+    "reset": "cd ../ && git-all 'reset HEAD --hard'"
   },
   "keywords": [],
   "author": "TW",
